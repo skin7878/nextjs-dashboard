@@ -86,9 +86,3 @@ export type InvoiceForm = {
   amount: number;
   status: 'pending' | 'paid';
 };
-
-export type Links = {
-  name: string;
-  href: string;
-  icon: React.FunctionComponent;
-};
